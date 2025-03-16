@@ -26,8 +26,9 @@ def get_last_url():
 
 # Fungsi download video
 def download_tiktok_video(video_url):
+    nama_vidio = video_url.replace('https://www.tiktok.com/@jojo.2801/video/','')
     """Download video dan simpan di output_path"""
-    video_filename = os.path.join(output_path, "tiktok_video.mp4")  # Nama file output
+    video_filename = os.path.join(output_path, "nama_vidio.mp4")  # Nama file output
 
     # Hapus folder video lama sebelum download baru
     if os.path.exists(output_path):
