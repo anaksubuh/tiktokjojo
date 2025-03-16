@@ -3,6 +3,8 @@ import yt_dlp
 import os
 import shutil
 
+# hello world , Dalam nama Tuhan yesus memberkati semua langkahku
+
 # Set judul halaman
 st.set_page_config(page_title="TIKTOK JOJO", page_icon="🌍")
 
